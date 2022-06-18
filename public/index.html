@@ -10,6 +10,7 @@
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="manifest" href="./manifest.json" />
 
     <title>Budget Tracker</title>
 </head>
@@ -48,16 +49,14 @@
     <script src="./js/idb.js"></script>
 </body>
 <script type="text/javascript">
-    (function () {
-        if ("serviceWorker" in navigator) {
-            navigator.serviceWorker
-                .register("./public/service-worker")
-                .then(() => console.log("Service Worker registered successfully."))
-                .catch(error =>
-                    console.log("Service Worker registration failed:", error)
-                );
-        }
-    })();
+    if ("serviceWorker" in navigator) {
+        navigator.serviceWorker
+            .register("./public/service-worker")
+            .then(() => console.log("Service Worker registered successfully."))
+            .catch(error =>
+                console.log("Service Worker registration failed:", error)
+            );
+    }
 </script>
 
 </html>
