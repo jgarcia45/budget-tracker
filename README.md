@@ -5,14 +5,19 @@
 
 ## Technologies
 ![Technologies](https://img.shields.io/badge/-Git-F05032?logo=Git&logoColor=white)
+![Technologies](https://img.shields.io/badge/-HTML-E34F26?logo=html5&logoColor=white)
+![Technologies](https://img.shields.io/badge/-CSS-1572B6?logo=css3&logoColor=white)
+![Technologies](https://img.shields.io/badge/-Bootstrap-7952B3?logo=Bootstrap&logoColor=white)
 ![Technologies](https://img.shields.io/badge/-JavaScript-007396?logo=JavaScript&logoColor=white)
 ![Technologies](https://img.shields.io/badge/-Node.js-339933?logo=Node.js&logoColor=white)
 ![Technologies](https://img.shields.io/badge/-npm-CB3837?logo=npm&logoColor=white)
+![Technologies](https://img.shields.io/badge/-Heroku-430098?logo=Heroku&logoColor=white)
 ![Technologies](https://img.shields.io/badge/-MongoDB-47A248?logo=MongoDB&logoColor=white)
 ![Technologies](https://img.shields.io/badge/-Express-000000?logo=&logoColor=white)
+![Technologies](https://img.shields.io/badge/-Mongoose-000000?logo=&logoColor=white)
 
 ## Description
-
+Developed an existing budget tracker application to allow for offline access and functionality. The user will be allowed to add expenses and deposits to their budget with or without a connection. If the user enters any transactions while offline, the total should be updated when the application is brought back online.
 
 ## Installation
 ***Requirments***
@@ -43,7 +48,7 @@ THEN the deposits or expenses added while they were offline are added to their t
 ```
 
 ## Screenshot
-![]()
+![Homepage](./public/images/homepage.png)
 
 ## Link
 A link to the [code](https://github.com/jgarcia45/budget-tracker):
