@@ -1,0 +1,25 @@
+{
+  "name": "budget-app",
+  "version": "1.0.0",
+  "description": "Giving users a fast and easy way to track their money.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jgarcia45/budget-tracker.git"
+  },
+  "author": "Juan Garcia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jgarcia45/budget-tracker/issues"
+  },
+  "homepage": "https://github.com/jgarcia45/budget-tracker#readme",
+  "dependencies": {
+    "compression": "^1.7.4",
+    "express": "^4.18.1",
+    "mongoose": "^6.4.0",
+    "morgan": "^1.10.0"
+  }
+}
